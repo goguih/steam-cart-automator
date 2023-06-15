@@ -1,7 +1,7 @@
 # Steam Cart Automator
 
 Is tool that automates the process of adding games to the cart on the Steam platform.
-Developed and tested on the Linux operating system.
+Developed and Tested on the Linux operating system.
 
 ## Prerequisites
 
@@ -28,15 +28,15 @@ NOTE: The game currency is set to 'ARS$', if it is a different currency, replace
 ### Update steam_cart_add.py
 1. Replace `"YOUR_LOGIN"` and `"YOUR_PASSWORD"`.
 
-### Update steam_value.py
+### Update steam_game_verificated.py
 1. Replace `"YOUR_API_KEY"`.
 
 ## Usage
 
 1. Clone this repository to your local machine.
-2. Run the steam_value.py script to verify that the data is being fetched correctly:
+2. Run the steam_game_verificated.py script to verify that the data is being fetched correctly:
     ```bash 
-    python3 steam_value.py
+    python3 steam_game_verificated.py
 3. Run the steam_cart_add.py script to start the process of adding games to the cart:
     ```bash 
     python3 steam_cart_add.py
