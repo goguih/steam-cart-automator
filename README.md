@@ -35,9 +35,11 @@ NOTE: The game currency is set to 'ARS$', if it is a different currency, replace
 
 1. Clone this repository to your local machine.
 2. Run the steam_value.py script to verify that the data is being fetched correctly:
-    ```bash python3 steam_value.py
+    ```bash 
+    python3 steam_value.py
 3. Run the steam_cart_add.py script to start the process of adding games to the cart:
-    ```bash python3 steam_cart_add.py
+    ```bash 
+    python3 steam_cart_add.py
 4. Once you have accepted the Steam Guard verification, press `ENTER` and wait.
 5. After completing the addition of all the games, complete the purchase and close the browser or press `ENTER` again.
 
