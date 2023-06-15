@@ -23,7 +23,7 @@ NOTE: The game currency is set to 'ARS$', if it is a different currency, replace
 1. The games are manually retrieved from the website, so go to: https://steamdb.info/
 2. Go to the `Sales` tab, apply any desired filters, and open the DevTools.
 3. Select the <tbody> tag that encompasses all the games and copy the element.
-4. In the `steam_game_verificated.py` file, paste the element.
+4. In the `game_data.html` file, paste the element.
 
 ### Update steam_cart_add.py
 1. Replace `"YOUR_LOGIN"` and `"YOUR_PASSWORD"`.
