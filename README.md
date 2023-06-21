@@ -7,6 +7,7 @@ Developed and Tested on the Linux operating system.
 
 - Python 3.x: https://www.python.org/downloads/
 - Selenium: `pip install selenium`
+- Beautifulsoup4: `pip install beautifulsoup4`
 - ChromeDriver: Download the appropriate ChromeDriver for your operating system from the official ChromeDriver website (https://sites.google.com/a/chromium.org/chromedriver/downloads) if necessary.
 
 ### ExchangeRate API
