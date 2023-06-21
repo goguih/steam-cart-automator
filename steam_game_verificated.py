@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import math
+import platform
 
 # ExchangeRate-API API key (replace with your own key)
 api_key = 'YOUR_API_KEY'
@@ -11,9 +12,19 @@ url = f'https://v6.exchangerate-api.com/v6/{api_key}/pair/ARS/BRL'
 
 def get_game_names_prices():
 
-    # Open the file in read mode
-    with open('game_data.html', 'r') as file:
-        # Read the file content and store it in a variable
+# Determine the platform (Linux or Windows)
+    current_platform = platform.system()
+
+# Specify the encoding based on the platform
+    if current_platform == 'Linux':
+        encoding = 'utf-8'
+    elif current_platform == 'Windows':
+        encoding = 'cp1252'
+    else:
+        encoding = 'utf-8'  # Default encoding if the platform is unknown
+
+# Open the file in read mode
+    with open('game_data.html', encoding=encoding, errors='ignore') as file:
         html = file.read()
 
     # Assuming you already have the HTML code of the table stored in the 'html' variable
